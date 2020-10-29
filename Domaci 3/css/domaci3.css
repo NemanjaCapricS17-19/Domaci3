@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.moto{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.meni{
+    display: inline-block;
+    width: 100%;
+    background-color: coral;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.meni ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.meni ul li:hover{
+    background-color: yellow;
+}
+
+.meni ul{
+    background-color: aquamarine;
+}
+
+.registracija{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+label, input, select, option{
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+}
+
+input{
+    margin: 5px;
+    text-align: left;
+}
+
+select{
+    margin: 5px;
+}
+
+.Proizvodi{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.p1{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.informacije{
+    margin: 0 auto;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.p img{
+    width: 200px;
+}
+
+.Proizvodi h1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p{
+    border: 2px solid rgba(39, 187, 179, 0.247);
+    border-radius: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.p button{
+    background-color: rgba(50, 205, 205, 0.37);
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.vesti img{
+    height: auto;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#h1vesti{
+    text-align: center;
+}
+
+.vesti{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.vesti .vesti1{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
